@@ -18,11 +18,3 @@ body:
       description: Please describe the issue you've been dealing with
     validations:
       required: true
-
-  - type: textarea
-    id: alternatives
-    attributes:
-      label: Feature Improvement Request
-      description: Please describe the behavior you'd like to see. Explain how it will improve the application
-    validations:
-      required: true
