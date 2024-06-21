@@ -1,28 +1,28 @@
-name: Feature request
-description: File a new feature request
+name: Issue Tracking
+description: File a new issue
 labels: ["enhancement", "needs-triage"]
 body:
 
   - type: textarea
-    id: feature
+    id: feature being tested
     attributes:
-      label: Feature description
-      description: Please describe the behavior you'd like to see.
+      label: feature description
+      description: Please describe the expected result
     validations:
       required: true
 
   - type: textarea
-    id: problem-usecase
+    id: bug encountered
     attributes:
       label: Problem or use case
-      description: Please explain which problem this would solve, or what the use case is for the feature. Keep in mind that it's more likely to be implemented if it's generally useful for a larger number of users.
+      description: Please describe the issue you've been dealing with
     validations:
       required: true
 
   - type: textarea
     id: alternatives
     attributes:
-      label: Alternatives or workarounds
-      description: Please describe any alternatives or workarounds you have considered and, possibly, rejected.
+      label: Feature Improvement Request
+      description: Please describe the behavior you'd like to see. Explain how it will improve the application
     validations:
       required: true
