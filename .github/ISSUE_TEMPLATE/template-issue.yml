@@ -4,7 +4,7 @@ labels: ["enhancement", "needs-triage"]
 body:
 
   - type: textarea
-    id: feature being tested
+    id: feature-being-tested
     attributes:
       label: feature description
       description: Please describe the expected result
@@ -12,7 +12,7 @@ body:
       required: true
 
   - type: textarea
-    id: bug encountered
+    id: bug-encountered
     attributes:
       label: Problem or use case
       description: Please describe the issue you've been dealing with
